@@ -1,6 +1,6 @@
 header { 
     background-color: #0D3B66; 
-    background-image: url("../img/logos/fondo-nieve.png"); 
+    background-image: url("./fondo-nieve.png"); 
     max-height: 150px; 
     display: flex;
     justify-content: center;
