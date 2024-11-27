@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    background-color: #bfdaf3;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    nav a {
+        font-size: 16px; 
+        padding: 8px 10px; 
+    }
+}
+
+nav:hover {
+    background-color: #f39339; 
+}
+
+nav a {
+    color: #0D3B66;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.1s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
