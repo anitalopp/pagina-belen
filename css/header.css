@@ -1,0 +1,13 @@
+header { 
+    background-color: #0D3B66; 
+    background-image: url("../images/logos/fondo-nieve.png"); 
+    max-height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo {
+    width: 350px; 
+}

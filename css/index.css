@@ -1,0 +1,125 @@
+main {
+    background-color: rgba(255, 166, 0, 0.111);
+    padding: 20px 0;
+}
+
+.imagenes-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;  
+    justify-items: center;
+}
+
+.imagenes-galeria img {
+    width: 90%;  
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.imagenes-galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+@media screen and (max-width: 768px) {
+    .imagenes-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imagenes-galeria img {
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .imagenes-galeria {
+        grid-template-columns: 1fr;  
+    }
+
+    .imagenes-galeria img {
+        width: 100%;  
+    }
+}
+
+
+#imagenes-certificados img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.noticias {
+    background-color: rgba(255, 166, 0, 0.1);
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticias h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.noticia {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.noticia h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.noticia .fecha {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.noticia p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.boton-noticia {
+    background-color: #0D3B66;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.boton-noticia:hover {
+    background-color: orange;
+}
+
+#banner-bienvenida {
+    background-color: #006B3F; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    background-image: url("../img/logos/fondo-nieve.png"); 
+}
+
+#banner-bienvenida p {
+    margin: 0;
+    padding: 0;
+}

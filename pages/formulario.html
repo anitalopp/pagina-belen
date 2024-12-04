@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Matriculación</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/header.css"> 
+    <link rel="stylesheet" href="../css/nav.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img id="logo" src="../images/logos/logoBlanco.png" alt="logo"></a>  
+    </header> 
+    <nav>
+        <a href="../index.html" id="menuInicio">INICIO</a>
+        <a href="../pages/contexto.html" id="menuContexto">CONTEXTO HISTÓRICO</a>
+        <a href="../pages/noticias.html" id="menuNoticias">NOTICIAS</a>
+        <a href="../pages/formulario.html" id="menuFormulario">FORMULARIO</a>
+    </nav>
+<div class="contenedor">
+    <div class="contenedor-izquierda">
+        <h3>¿Necesitas más información?</h3>
+        <h3>¡Contacta con nosotros!</h3>  
+        <ul>
+            <li>
+                <i class="fas fa-envelope"></i> 
+                Email: <a href="mailto:info@calasanzsalamanca.es">info@calasanzsalamanca.es</a>
+            </li>
+            <li>
+                <i class="fas fa-phone-alt"></i> 
+                Teléfono: 923 26 79 61
+            </li>
+            <li>
+                <i class="fas fa-fax"></i> 
+                Fax: 923 27 04 54
+            </li>
+        </ul>
+    </div>
+    <div class="formulario">
+        <h2>Formulario de Inscripción</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre del Niño:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="grado">Grado al que se inscribe:</label>
+            <select id="grado" name="grado" required>
+                <option value="">Seleccione</option>
+                <option value="preescolar">Preescolar</option>
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="bachillerato">Bachillerato</option>
+                <option value="fp">Formación profesional</option>
+            </select>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            <label for="telefono">Teléfono de contacto:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="motivo">Motivo de inscripción:</label>
+            <textarea id="motivo" name="motivo" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="contenedor-derecha">
+        <h3>Enlaces Útiles</h3>
+        <ul class="enlaces-utiles">
+            <li><i id="logosEnlacesUtiles" class="fas fa-calendar-alt"></i> <a href="https://example.com/calendario-escolar" target="_blank">Calendario Escolar</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-pencil-alt"></i> <a href="https://example.com/matriculacion" target="_blank">Proceso de Matriculación</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-users"></i> <a href="https://example.com/normas-convivencia" target="_blank">Normas de Convivencia</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-bus"></i> <a href="https://example.com/transporte-escolar" target="_blank">Transporte Escolar</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-chalkboard-teacher"></i> <a href="https://example.com/actividades-extracurriculares" target="_blank">Actividades Extracurriculares</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-utensils"></i> <a href="https://example.com/comedor-escolar" target="_blank">Comedor Escolar</a></li>
+            <li><i id="logosEnlacesUtiles" class="fas fa-building"></i> <a href="https://example.com/contacto-administrativo" target="_blank">Contacto Administrativo</a></li>
+        </ul>
+    </div>
+    
+</div>
+</body>
+</html>
+
